@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    font-size: 25px;
+}
+
+#main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#form-data input{
+    padding: .5rem;
+    font-size: 1.4rem;
+}
+
+#icon{
+    margin-top: 2rem;
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+
+#btn{
+    padding: .5rem;
+    font-size: 1.4rem;
+    border-radius: 10px;
+}
+
+
+#field-li{
+    width: 400px;
+    display: flex;
+    padding-right: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: rgb(10, 8, 12) 2px solid;
+}
+
+#field-li:hover{
+    color: rgb(92, 1, 72);
+}
+
+#info-list{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: aquamarine;
+    color: blueviolet;
+}
